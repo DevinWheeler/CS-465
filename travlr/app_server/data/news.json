@@ -1,0 +1,51 @@
+[
+    {
+        "code": "LATEST_1",
+        "title": "2023 Best Beaches Contest Winners"
+    },
+    {
+        "code": "LATEST_2",
+        "title": "Top 10 Diving Spots"
+    },
+    {
+        "code": "LATEST_3",
+        "title": "Fishing ban to be implemented this year"
+    },
+    {
+        "code": "LATEST_4",
+        "title": "Lifeguard saves child from drowning"
+    },
+    {
+        "code": "TIPS_1",
+        "title": "What to bring on the beach?"
+    },
+    {
+        "code": "TIPS_2",
+        "title": "Planning Fun Activities"
+    },
+    {
+        "code": "TIPS_3",
+        "title": "Diving Checklist"
+    },
+    {
+        "code": "TIPS_4",
+        "title": "First Aid"
+    },
+    {
+        "code": "TIPS_5",
+        "title": "How to Build a Sand Castle?"
+    },
+    {
+        "code": "TIPS_6",
+        "title": "Tanning Tips"
+    },
+    {
+        "code": "FEATURED_1",
+        "title": "Experience Kayaking!",
+        "author": "Juan De La Cruz",
+        "publishDate": "April 03, 2023",
+        "image": "kayak.jpg",
+        "alt": "Img",
+        "content": "Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis. Sed consequat libero ut turpis venenatis ut aliquam risus semper. Etiam convallis mi vel risus pretium sodales. Etiam nunc lorem, ullamcorper vitae laoreet id, rutrum et tortor. Vivamus luctus, lacus id egestas facilisis, nunc nunc ultricies lorem, vitae pulvinar nibh urna vel velit."
+    }
+]

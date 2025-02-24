@@ -8,6 +8,9 @@ const auth = jwt({
 });
 
 const tripsController = require('../controllers/trips');
+const mealsController = require('../controllers/meals');
+const newsController = require('../controllers/news');
+const roomsController = require('../controllers/rooms');
 const authController = require('../controllers/authentication');
 
 router
@@ -19,6 +22,22 @@ router
     .route('/trips/:tripCode')
     .get(tripsController.tripsFindByCode)
     .put(auth, tripsController.tripsUpdateTrip);
+
+router
+    .route('/news')
+    .get(newsController.newsList);
+
+router
+    .route('/news/:newsCode')
+    .get(newsController.newsFindCode);
+
+router
+    .route('/rooms')
+    .get(roomsController.roomList);
+
+router
+    .route('/rooms/:roomCode')
+    .get(roomsController.roomsFindCode);
 
 router
     .route('/login')
