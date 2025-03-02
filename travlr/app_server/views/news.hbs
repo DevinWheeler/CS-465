@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <div id="background">
+            <div id="page">
+                {{> header}}
+                <div id="contents">
+                    <div class="box">
+                        <div>
+                            <div id="news" class="body">
+                                <div class="sidebar">
+                                    <h3>Latest News</h3>
+                                    <ul>
+                                        {{#each latestNews}}
+                                        <li>
+                                           {{this.title}}
+                                        </li>
+                                        {{/each}}
+                                    </ul>
+                                    <h3>Vacation Tips</h3>
+                                    <ul>
+                                        {{#each vacationTips}}
+                                        <li>
+                                            {{this.title}}
+                                        </li>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h1>News</h1>
+                                    <a href="/api/news/{{featured.code}}">
+                                        <img src="images/{{featured.image}}" alt="{{featured.alt}}">
+                                    </a>
+                                    <h2>{{featured.title}}</h2>
+                                    <span class="time">{{featured.publishDate}}<br> by: {{featured.author}}</span>
+                                    {{{featured.content}}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{> footer}}
+        </div>
+    </body>
+</html>

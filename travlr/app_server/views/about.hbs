@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <div id="background">
+            <div id="page">
+                {{> header}}
+                <div id="contents">
+                    <div class="box">
+                        <div>
+                            <div class="body">
+                                <h1>About</h1>
+                                <h2>{{aboutPage.title}}</h2>
+                                <p>{{{aboutPage.content}}}</p>
+                                <hr>
+                                <div class="ads">
+                                    <h2>{{aboutPage.crews.title}}</h2>
+                                    <p>
+                                        {{{aboutPage.crews.content}}}
+                                    </p>
+                                    <h2>{{aboutPage.amenities.title}}</h2>
+                                    <p>
+                                        {{{aboutPage.amenities.content}}}
+                                    </p>
+                                </div>
+                                <h2>{{aboutPage.community.title}}</h2>
+                                <p>
+                                    {{{aboutPage.community.content}}}
+                                </p>
+                                <h2>{{aboutPage.template.title}}</h2>
+                                <p>
+                                    {{{aboutPage.template.content}}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{> footer}}
+        </div>
+    </body>
+</html>
